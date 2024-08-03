@@ -40,20 +40,10 @@ const Timer = ({
         >
           Stop
         </button>
-        <button
-          onClick={handleReset}
-          disabled={!isActive}
-          className={`px-4 py-2 text-white font-semibold rounded-lg shadow-md transition-colors ${
-            !isActive
-              ? "bg-gray-500 cursor-not-allowed"
-              : "bg-yellow-500 hover:bg-yellow-600"
-          }`}
-        >
-          Reset
-        </button>
+        
       </div>
       {/* Elemen audio untuk alarm */}
-      <audio ref={audioRef} src="/sounds/0827.WAV" />
+      <audio ref={audioRef} src="/sounds/sound.mp3" />
     </div>
   );
 };
