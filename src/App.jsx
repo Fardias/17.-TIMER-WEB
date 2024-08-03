@@ -36,7 +36,7 @@ function App() {
     audioRef.current.currentTime = 0;
   };
 
-  const timer1 = createTimer(5);
+  const timer1 = createTimer(1200);
   const timer2 = createTimer(7200);
   const image = {
     one: "../img/image11.png",
